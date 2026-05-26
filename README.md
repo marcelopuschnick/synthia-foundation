@@ -1,8 +1,10 @@
 # Synthia Foundation
 
-Sistema de **memória de contexto persistente** para LLMs locais (Ollama/LM Studio). Funciona como uma **fundação de módulos magnéticos** que mantêm boa saúde através de ciclos de uso: cada interação fortalece a conexão entre informações relevantes, permitindo que a memória **aprenda a se curar** e reorganizar seu mapa de contexto conforme a demanda aumenta.
+Fundação modular para agentes de IA local (Ollama / LM Studio). Arquitetura dividida em camadas responsáveis — **memória**, governança, integrações e fábrica de pipelines — que funcionam como módulos independentes mas conectados por contratos simples (JSON, HTTP, arquivos).
 
-A busca por similaridade via TF-IDF recupera não apenas as últimas memórias, mas os fragmentos mais relevantes para cada query — funcionando como memória a longo prazo para agentes offline.
+Este repositório contém o **módulo de Memória de Contexto**: persistência em JSON + busca por similaridade via TF-IDF para recuperar informações relevantes e injetá-las no prompt de LLMs locais. Funciona como memória de longo prazo offline, sem dependência de bancos vetoriais externos.
+
+A fundação completa inclui também camadas de auditoria (governance), conectores com editores de vídeo (integrations) e orquestração de pipelines (fabrica), publicadas em repositórios separados por domínio.
 
 ---
 
