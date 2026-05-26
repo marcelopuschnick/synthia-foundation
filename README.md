@@ -1,6 +1,10 @@
-# Memória de Contexto para IA Local
+# Synthia Foundation
 
-Sistema de **persistência e recall de contexto** para LLMs locais (Ollama/LM Studio). Implementa **busca por similaridade** via TF-IDF simples para recuperar memórias relevantes e injetá-las no prompt — funcionando como memória a longo prazo para agentes offline.
+Sistema de **memória de contexto persistente** para LLMs locais (Ollama/LM Studio). Funciona como uma **fundação de módulos magnéticos** que mantêm boa saúde através de ciclos de uso: cada interação fortalece a conexão entre informações relevantes, permitindo que a memória **aprenda a se curar** e reorganizar seu mapa de contexto conforme a demanda aumenta.
+
+A busca por similaridade via TF-IDF recupera não apenas as últimas memórias, mas os fragmentos mais relevantes para cada query — funcionando como memória a longo prazo para agentes offline.
+
+---
 
 ---
 
