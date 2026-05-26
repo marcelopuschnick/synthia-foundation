@@ -6,8 +6,6 @@ A busca por similaridade via TF-IDF recupera não apenas as últimas memórias, 
 
 ---
 
----
-
 ## O que faz
 
 1. **Adicionar** memórias de texto (user, assistant, documentos, notas, entrevistas)
