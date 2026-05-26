@@ -4,7 +4,7 @@ Fundação modular para agentes de IA local (Ollama / LM Studio). Arquitetura di
 
 Este repositório contém o **módulo de Memória de Contexto**: persistência em JSON + busca por similaridade via TF-IDF para recuperar informações relevantes e injetá-las no prompt de LLMs locais. Funciona como memória de longo prazo offline, sem dependência de bancos vetoriais externos.
 
-A fundação completa inclui também camadas de auditoria (governance), conectores com editores de vídeo (integrations) e orquestração de pipelines (fabrica), publicadas em repositórios separados por domínio.
+O projeto completo inclui também módulos locais de auditoria, integrações com editores de vídeo e orquestração de pipelines — organizados em camadas separadas por domínio.
 
 ---
 
